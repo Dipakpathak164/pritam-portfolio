@@ -1173,6 +1173,10 @@ address{
    }
 }
 @media (max-width:767px){
+  .float__icon{
+      top:100%;
+      tranform:translateY(-100%);
+ }
    body.stop-scroll{
       overflow: hidden;
    }
